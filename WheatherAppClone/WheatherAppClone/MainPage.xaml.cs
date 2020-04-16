@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WheatherAppClone.Model;
 using Xamarin.Forms;
 
 namespace WheatherAppClone
@@ -33,13 +34,6 @@ namespace WheatherAppClone
             tempList.Add(new Weather { Temp = "22", Date = "Saturday 22", Icon = "weather.png" });
 
             return tempList;
-        }
-
-        public class Weather
-        {
-            public string Temp { get; set; }
-            public string Date { get; set; }
-            public string Icon { get; set; }
         }
     }
 }
