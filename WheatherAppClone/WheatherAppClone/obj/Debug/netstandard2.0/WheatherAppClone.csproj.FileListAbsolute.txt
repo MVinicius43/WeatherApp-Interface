@@ -1,0 +1,13 @@
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\bin\Debug\netstandard2.0\WheatherAppClone.deps.json
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\bin\Debug\netstandard2.0\WheatherAppClone.dll
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\bin\Debug\netstandard2.0\ref\WheatherAppClone.dll
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\bin\Debug\netstandard2.0\WheatherAppClone.pdb
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\obj\Debug\netstandard2.0\WheatherAppClone.csprojAssemblyReference.cache
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\obj\Debug\netstandard2.0\WheatherAppClone.AssemblyInfoInputs.cache
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\obj\Debug\netstandard2.0\WheatherAppClone.AssemblyInfo.cs
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\obj\Debug\netstandard2.0\XamlC.stamp
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\obj\Debug\netstandard2.0\WheatherAppClone.dll
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\obj\Debug\netstandard2.0\ref\WheatherAppClone.dll
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone\obj\Debug\netstandard2.0\WheatherAppClone.pdb
