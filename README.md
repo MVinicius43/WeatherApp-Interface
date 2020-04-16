@@ -1,4 +1,4 @@
 # WeatherApp-Interface
 Idea of weather interface.
 
-![](WheatherAppClone/WheatherAppClone.Android/Resources/drawable/tela.jpg)
+![](WheatherAppClone/WheatherAppClone.Android/Resources/drawable/tela.png)
