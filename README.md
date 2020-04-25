@@ -1,4 +1,5 @@
 # WeatherApp-Interface
-Idea of weather interface.
+Idea for weather interface.<br/>
+For **Xamarin Forms**.
 
-![](WheatherAppClone/WheatherAppClone.Android/Resources/drawable/tela.jpg)
+![](WheatherAppClone/WheatherAppClone.Android/Resources/drawable/tela.png)
