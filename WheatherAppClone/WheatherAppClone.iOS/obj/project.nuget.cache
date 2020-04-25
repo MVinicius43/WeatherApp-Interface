@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3uRWWQUpjRsaFBuR8wDS/inGNG8D6NR1bwm7duCqCyY3lKzFEHHdkQ3b2yciHgF4PHlO0BrBCATkNi80KnqJTw==",
+  "success": true,
+  "projectFilePath": "D:\\WheatherAppClone\\WheatherAppClone\\WheatherAppClone.iOS\\WheatherAppClone.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mvini\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\mvini\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\mvini\\.nuget\\packages\\xamarin.forms\\4.3.0.908675\\xamarin.forms.4.3.0.908675.nupkg.sha512"
+  ],
+  "logs": []
+}

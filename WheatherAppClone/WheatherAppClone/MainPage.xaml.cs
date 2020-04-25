@@ -1,39 +1,117 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WheatherAppClone.APIRest;
 using WheatherAppClone.Model;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+using static WheatherAppClone.Model.Weather;
 
 namespace WheatherAppClone
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
-    [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        
+
         public MainPage()
         {
             InitializeComponent();
-            this.BindingContext = this;
+            InicializaCidade();
+            buttonBuscarCidade.Clicked += BuscaWeather;
+            buttonBuscarCidade.Clicked += WeatherForecast;
         }
 
-        public List<Weather> Weathers { get => WeatherData(); }
-
-        private List<Weather> WeatherData()
+        private void InicializaCidade()
         {
-            var tempList = new List<Weather>();
-            tempList.Add(new Weather { Temp = "22", Date = "Sunday 16", Icon = "weather.png" });
-            tempList.Add(new Weather { Temp = "21", Date = "Monday 17", Icon = "weather.png" });
-            tempList.Add(new Weather { Temp = "18", Date = "Tuesday 18", Icon = "weather.png" });
-            tempList.Add(new Weather { Temp = "19", Date = "Wednesday 19", Icon = "weather.png" });
-            tempList.Add(new Weather { Temp = "22", Date = "Thursday 20", Icon = "weather.png" });
-            tempList.Add(new Weather { Temp = "21", Date = "Friday 21", Icon = "weather.png" });
-            tempList.Add(new Weather { Temp = "22", Date = "Saturday 22", Icon = "weather.png" });
+            Weather.Rootobject weather = HGWeather.HGWeatherAPI("Barbacena");
 
-            return tempList;
+            tempDiaTxt.Text = weather.results.temp.ToString();
+            nomeCidade.Text = weather.results.city;
+            dataDia.Text = weather.results.date;
+            descricaoTempoDia.Text = weather.results.description;
+            humidityTxt.Text = weather.results.humidity.ToString() + "%";
+            windSpeedTxt.Text = weather.results.wind_speedy;
+
+            List<Forecast> allList = new List<Forecast>();
+
+            foreach (var list in weather.results.forecast)
+            {
+                allList.Add(list);
+            }
+
+            dayOneTxt.Text = allList[0].weekday;
+            dateOneTxt.Text = allList[0].date;
+            tempMaxOneTxt.Text = "Máx: " + allList[0].max + "°C";
+            tempMinOneTxt.Text = "Min: " + allList[0].min + "°C";
+
+            dayTwoTxt.Text = allList[1].weekday;
+            dateTwoTxt.Text = allList[1].date;
+            tempMaxTwoTxt.Text = "Máx: " + allList[1].max + "°C";
+            tempMinTwoTxt.Text = "Min: " + allList[1].min + "°C";
+
+            dayThreeTxt.Text = allList[2].weekday;
+            dateThreeTxt.Text = allList[2].date;
+            tempMaxThreeTxt.Text = "Máx: " + allList[2].max + "°C";
+            tempMinThreeTxt.Text = "Min: " + allList[2].min + "°C";
+
+            dayFourTxt.Text = allList[3].weekday;
+            dateFourTxt.Text = allList[3].date;
+            tempMaxFourTxt.Text = "Máx: " + allList[3].max + "°C";
+            tempMinFourTxt.Text = "Min: " + allList[3].min + "°C";
         }
+
+        private void BuscaWeather(object sender, EventArgs args)
+        {
+            string cidade = inserirNomeCidade.Text.Trim();
+            Weather.Rootobject weather = HGWeather.HGWeatherAPI(cidade);
+
+            tempDiaTxt.Text = weather.results.temp.ToString();
+            nomeCidade.Text = weather.results.city;
+            dataDia.Text = weather.results.date;
+            descricaoTempoDia.Text = weather.results.description;
+            humidityTxt.Text = weather.results.humidity.ToString() + "%";
+            windSpeedTxt.Text = weather.results.wind_speedy;
+        }
+
+        private void WeatherForecast(object sender, EventArgs args)
+        {
+            string cidade = inserirNomeCidade.Text.Trim();
+            Weather.Rootobject weather = HGWeather.HGWeatherAPI(cidade);
+
+            List<Forecast> allList = new List<Forecast>();
+
+            foreach (var list in weather.results.forecast)
+            {
+               allList.Add(list);
+            }
+            
+            dayOneTxt.Text = allList[0].weekday;
+            dateOneTxt.Text = allList[0].date;
+            tempMaxOneTxt.Text = "Máx: " + allList[0].max + "°C";
+            tempMinOneTxt.Text = "Min: " + allList[0].min + "°C";
+
+            dayTwoTxt.Text = allList[1].weekday;
+            dateTwoTxt.Text = allList[1].date;
+            tempMaxTwoTxt.Text = "Máx: " + allList[1].max + "°C";
+            tempMinTwoTxt.Text = "Min: " + allList[1].min + "°C";
+
+            dayThreeTxt.Text = allList[2].weekday;
+            dateThreeTxt.Text = allList[2].date;
+            tempMaxThreeTxt.Text = "Máx: " + allList[2].max + "°C";
+            tempMinThreeTxt.Text = "Min: " + allList[2].min + "°C";
+
+            dayFourTxt.Text = allList[3].weekday;
+            dateFourTxt.Text = allList[3].date;
+            tempMaxFourTxt.Text = "Máx: " + allList[3].max + "°C";
+            tempMinFourTxt.Text = "Min: " + allList[3].min + "°C";
+        }
+        
     }
 }
+    
+
+

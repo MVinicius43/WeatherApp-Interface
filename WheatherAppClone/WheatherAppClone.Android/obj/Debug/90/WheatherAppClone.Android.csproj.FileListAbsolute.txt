@@ -11,8 +11,6 @@ D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\adb.p
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\WheatherAppClone.Android.csprojAssemblyReference.cache
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
-D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\resourcepaths.cache
-D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\resourcecache.stamp
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\res.flag
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\flata\19E9EA81B228663F.stamp
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\flata\5DAD8548A7287B07.stamp
@@ -477,7 +475,6 @@ D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\app_s
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\app_shared_libraries\x86\libxamarin-app.so
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\app_shared_libraries\x86_64\libxamarin-app.so
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\android\bin\classes.dex
-D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\stamp\_BuildAdditionalResourcesCache.stamp
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\stamp\_CleanIntermediateIfNuGetsChange.stamp
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\stamp\_CompileToDalvik.stamp
@@ -487,3 +484,7 @@ D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\stamp
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\bin\Debug\com.companyname.wheatherappclone.aab
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\WheatherAppClone.Android.csproj.CoreCompileInputs.cache
+D:\WheatherAppClone\WheatherAppClone\WheatherAppClone.Android\obj\Debug\90\android\AndroidManifest.xml
